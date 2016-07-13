@@ -1,0 +1,8 @@
+【营长】广州-才子<hlmcdh@163.com> 17:32:27
+其实就是让b页面产生回调，触发a页面的程序，是这个意思吧？
+【排长】武汉-忹(2453996150) 17:33:13
+嗯
+【营长】广州-才子<hlmcdh@163.com> 17:34:17
+在iframe里面设置一个空页面，里面使用 top.document.setSubmitMsg
+【营长】广州-才子<hlmcdh@163.com> 17:34:43
+然后a页面里面使用document.setSubmitMsg =  callback()
